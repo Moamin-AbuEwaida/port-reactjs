@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Services from "./components/Services";
+import Work from "./components/Work";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Nav />
       <About />
       <Services />
+      <Work />
       <div className='h-[4000px]'></div>
     </div>
   );
