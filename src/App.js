@@ -2,6 +2,7 @@ import About from "./components/About";
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Banner />
       <Nav />
       <About />
+      <Services />
       <div className='h-[4000px]'></div>
     </div>
   );
